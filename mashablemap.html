@@ -3,8 +3,8 @@
   body { font-family: Arial, sans-serif; }
   #map_canvas { height: 650px; width:940px; }
 </style> 
-<h2>Which countries care about which SDG? This map shows countries ranked by normalized search volumes for each issue over past 12 months</h2>
-Click dropdown menu to explore the data<p>
+<h2>Which countries care about which SDG?</h2>
+Click dropdown menu to explore the data. This map shows countries ranked by normalized search volumes for each issue over past 12 months<p>
 <meta />
 <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script> 
 
@@ -385,7 +385,9 @@ function legendContent(column) {
 
 <select onchange="addStyle(this.value);" id="selector" style="font-size: 18px"></select>
 
-<div id="map_canvas" style="width: 780px; height: 650px;"></div>
+<div id="map_canvas" style="width: 940px; height: 650px;"></div>
+<p><p>
+<img src=“https://github.com/SimonRogers/cartoassets/blob/master/GoogleTrendsLogo.png?raw=true”>
 
 </body>
 </html>
@@ -400,5 +402,4 @@ function legendContent(column) {
             }
         })();
     </script>
-</div><p><p>
-<img src=“https://github.com/SimonRogers/cartoassets/blob/master/GoogleTrendsLogo.png?raw=true”>
+</div>
